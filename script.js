@@ -223,9 +223,45 @@ console.log(detail.getSummary()); */
 } */
 
 // LOOPING ARRAYS, BREAKING AND CONTINUING
-const himanshu = ['himanshu', 'ladva', 2001, 'programmer'
-,['darshit','vishal','raj']];
+/* const himanshu = [
+  "himanshu",
+  "ladva",
+  2001,
+  "programmer",
+  ["darshit", "vishal", "raj"],
+];
 
-for(let i = 0; i<himanshu.length; i++) {
-    console.log(himanshu[i] , typeof himanshu[i]);
+for(let i = himanshu.length -1; i >= 0; i--) {
+    console.log(himanshu[i]);
 }
+
+for(let i = 0; i<5;i++) {
+    console.log('hello-------------------------');
+    for(let j = 0;j<5;j++){
+        console.log('world');
+    }
+} */
+// ------------------------------------------------------------------
+
+// THE WHILE LOOP
+/* let i = 0;
+while(i <= 10) {
+    console.log('hello world');
+    i++;
+}
+
+do {
+  console.log("hello world");
+  i++;
+} while (i <= 10);
+
+let dice = Math.trunc(Math.random()*6) + 1;
+
+while(dice!==6) {
+    console.log(`you rolled a ${dice}`);
+    dice = Math.trunc(Math.random() * 6) + 1;
+
+    if(dice === 6) {
+        console.log('loop is about to end.....');
+    }
+} */
